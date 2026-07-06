@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Allsec.in</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="app">
+
+  <div class="topbar">
+    <button class="hamburger" aria-label="menu"><span></span><span></span><span></span></button>
+    <div class="topbar-icons">
+      <span class="icon"><i class="fas fa-bell"></i></span>
+      <span class="icon"><i class="fas fa-user"></i></span>
+      <span class="icon power">⏻</span>
+    </div>
+  </div>
+
+  <div class="banner">
+    <h1>Flexi Roster</h1>
+    <div class="breadcrumb">
+      <span>🏠</span><span class="dot"></span><span>Flexi Roster</span><span class="dot"></span><span>Booking Slot</span>
+    </div>
+  </div>
+
+  <div class="date-card-wrap">
+    <button class="chev" onclick="scrollDates(-1)">&#10094;</button>
+    <div class="date-grid" id="dateGrid"></div>
+    <button class="chev" onclick="scrollDates(1)">&#10095;</button>
+  </div>
+
+  <div class="divider"></div>
+
+  <div id="slotsContainer"></div>
+
+  <align=right><footer><b>Allsec.</b> All Rights Reserved</footer></align>
+</div>
+
+<div class="fab">★</div>
+<div class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">˄</div>
+<div id="toast">Your slot booked successfully!</div>
+<script src="script.js"></script>
+
+
+</body>
+</html>
