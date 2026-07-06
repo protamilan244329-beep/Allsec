@@ -1,5 +1,4 @@
 const dates = [
-    {day:'06', month:'Jul', year:'2026', weekday:'Monday'},
     {day:'07', month:'Jul', year:'2026', weekday:'Tuesday'},
     {day:'08', month:'Jul', year:'2026', weekday:'Wednesday'},
     {day:'09', month:'Jul', year:'2026', weekday:'Thursday'},
@@ -15,7 +14,6 @@ const dates = [
 
   // seed availability data per date (1 = available, 0 = booked/full)
   const availability = {
-    '06': [1,1],
     '07': [1,1],
     '08': [1,1],
     '09': [1,1],
