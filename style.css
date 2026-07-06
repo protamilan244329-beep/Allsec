@@ -113,8 +113,8 @@
     position:absolute; top:0; right:0;
     width:26px; height:22px;
     background:var(--orange);
-    border-bottom-left-radius:6px;
-    border-top-right-radius:6px;
+    border-bottom-left-radius:1px;
+    border-top-right-radius:1px;
     display:flex; align-items:center; justify-content:center;
     color:#1b3a1b; font-size:0.8rem; font-weight:900;
   }
